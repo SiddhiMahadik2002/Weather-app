@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    margin:20px;
+    font-size: 25px;
+    color:rgb(68, 66, 66);
+    
+}
+
+.heroSection {
+        margin:40px 20px;
+        
+}
+.heroSection .head{
+    color:grey;
+    font-size: 20px;
+    margin:0px;
+}
+.heroSection h2{ 
+    color:rgb(86, 85, 85);
+   font-size:30px;
+   margin:0px;
+}
+.heroSection .weatherSec{
+    border-radius:20px;
+    background-color: #4c41c4;
+    display: flex;
+    justify-content:space-between;
+    padding:15px 20px;
+    margin-top:10px;
+    color:aliceblue;
+}
+.weatherSec img{
+    width:120px;
+}
+
+.weatherSec .degree{
+    font-size: 30px;
+    margin:0px;
+}
+.day{
+    margin:0;
+    font-size: 22px;
+    margin-top:10px;
+}
+
+.place{
+    color:rgb(212, 211, 211);
+    margin:0px;
+    font-size:12px;
+}
